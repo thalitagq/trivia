@@ -1,0 +1,25 @@
+.inputField {
+
+  input, label{
+    color: #1976d2;
+  }
+
+  & label.Mui-focused{
+    color: #1976d2;
+  }
+
+  & .MuiOutlinedInput-root{
+    &.Mui-focused fieldset{
+       border-color: #1976d2;
+    }
+  }
+
+  fieldset{
+    border-color: #1976d2;
+  }
+}
+
+.btn{
+  background-color: #1976d2;
+  color: #fff;
+}
